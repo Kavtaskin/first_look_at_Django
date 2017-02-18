@@ -13,6 +13,12 @@ caption {
 }
 
 .parent{
-    margin: 20px; /* Отступы вокруг элемента */
-    padding: 10px; /* Поля вокруг текста */
+    margin-left: 20px; /* Отступы вокруг элемента */
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;/* Поля вокруг текста */
+}
+
+h1{
+    padding-left: 30px;
 }
