@@ -2,27 +2,138 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Dima blog</title>
+    <title>Timetable</title>
 </head>
 <body>
-    <p>Hi there!</p>
-    <p>It works!</p>
-<div>
-                <h1><a href="">Dima</a></h1>
-            </div>
+    <h1><a href="https://vk.com/frela309b">40-309Б</a></h1>
+    <p>Расписание 309 группы на весенний семестр.</p>
+    <div>
+        <body>
+            <table border="1">
+                <tr>
+                    <td rowspan="4">ПН</td>
+                    <td>9:00</td>
+                    <td>Политология</td>
+                    <td>408 (7)</td>
+                    <td>Рыбаков Андрей Вячеславович</td>
+                </tr>
+                <tr>
+                    <td>10:45</td>
+                    <td>Оптоэлектроника</td>
+                    <td>317 (7)</td>
+                    <td>Картуков Андрей Владимирович</td>
+                </tr>
+                <tr>
+                    <td>13:00</td>
+                    <td>Измерительная аппаратура анализа защищенности </td>
+                    <td>317 (7)</td>
+                    <td>Сухарев Александр Дмитриевич</td>
+                </tr>
+                <tr>
+                    <td>14:45</td>
+                    <td>Физвоспитание</td>
+                    <td>каф</td>
+                    <td></td>
+                </tr>
 
-            {% for post in posts %}
-                <div>
-                    <p>published: {{ post.published_date }}</p>
-                    <h1><a href="">{{ post.title }}</a></h1>
-                    <p>{{ post.text|linebreaksbr }}</p>
-                </div>
-            {% endfor %}
+                <tr>
+                    <td rowspan="5">СР</td>
+                    <td>9:00</td>
+                    <td>Особенности каналов утечки информации в современной электронной аппаратуре</td>
+                    <td>328 (24б)</td>
+                    <td>Сухарев Дмитрий Александрович</td>
+                </tr>
+                <tr>
+                    <td>10:45</td>
+                    <td>Основы теории систем и комплексов радиоэлектронной борьбы </td>
+                    <td>409А (7)</td>
+                    <td>Куприянов Александр Ильич</td>
+                </tr>
+                <tr>
+                    <td>13:00</td>
+                    <td>Основы теории систем и комплексов радиоэлектронной борьбы </td>
+                    <td>409А (7)</td>
+                    <td>Куприянов Александр Ильич</td>
+                </tr>
+                <tr>
+                    <td>13:00</td>
+                    <td>Методы защищенного доступа в беспроводных каналах передачи данных</td>
+                    <td>409А (7)</td>
+                    <td>Витомский Евгений Владиславович</td>
+                </tr>
+                <tr>
+                    <td>14:45</td>
+                    <td>Методы защищенного доступа в беспроводных каналах передачи данных</td>
+                    <td>409А (7)</td>
+                    <td>Витомский Евгений Владиславович</td>
+                </tr>
 
-            <div>
-                <p>published: 14.06.2014, 12:14</p>
-                <h2><a href="">My second post</a></h2>
-                <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut f.</p>
-            </div>
+                <tr>
+                    <td rowspan="5">ЧТ</td>
+                    <td>9:00</td>
+                    <td>Электронный документооборот</td>
+                    <td>212 (7)</td>
+                    <td>Дикий Владимир Васильевич</td>
+                </tr>
+                <tr>
+                    <td>10:45</td>
+                    <td>Иностранный язык</td>
+                    <td>203 (7)</td>
+                    <td>Олифиренко Светлана Михайловна</td>
+                </tr>
+                <tr>
+                    <td>13:00</td>
+                    <td>Политология</td>
+                    <td>317 (7)</td>
+                    <td>Рыбаков Андрей Вячеславович</td>
+                </tr>
+                <tr>
+                    <td>13:00</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>14:45</td>
+                    <td>Физвоспитание</td>
+                    <td>каф</td>
+                    <td></td>
+                </tr>
+
+                <tr rowspan="4">
+                    <td >ПТ</td>
+                    <td >9:00</td>
+                    <td>Военная подготовка</td>
+                    <td ></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="4">СБ</td>
+                    <td>9:00</td>
+                    <td>Аудит безопасности объектов информатизации </td>
+                    <td>315 (7)</td>
+                    <td>Толкачев Владислав Иванович</td>
+                </tr>
+                <tr>
+                    <td>9:00</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>10:45</td>
+                    <td>Аудит безопасности объектов информатизации </td>
+                    <td>315 (7)</td>
+                    <td>Толкачев Владислав Иванович</td>
+                </tr>
+                <tr>
+                    <td>13:00</td>
+                    <td>Исследование операций </td>
+                    <td>315 (7)</td>
+                    <td>Витомский Евгений Владиславович</td>
+                </tr>
+            </table>
+        </body>
+    </div>
 </body>
 </html>
