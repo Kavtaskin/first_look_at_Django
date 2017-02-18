@@ -12,11 +12,12 @@ caption {
     font-size: 20px;
 }
 
+table{
+    margin: auto;
+}
+
 .parent{
-    margin-left: 20px; /* Отступы вокруг элемента */
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-    padding-left: 10px;/* Поля вокруг текста */
+    padding-bottom: 30px;
 }
 
 h1{
