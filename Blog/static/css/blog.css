@@ -1,7 +1,3 @@
-body {
-    padding-left: 25px;
-}
-
 td {
     border-bottom: 1px solid #ccc;
     color: #669;
@@ -14,4 +10,9 @@ caption {
     text-align: center;
     padding: 10px 0;
     font-size: 20px;
+}
+
+.parent{
+    margin: 20px; /* Отступы вокруг элемента */
+    padding: 10px; /* Поля вокруг текста */
 }
