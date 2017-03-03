@@ -2,7 +2,6 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-	<meta charset="UTF-8">
 	<title>Dmitry Kavtaskin</title>
 	<link rel="shortcut icon" type="image/png" href="{% static 'image/favicon (1).ico' %}"/>
 	<link rel="stylesheet" href="{% static 'css/blog.css' %}">
@@ -12,14 +11,13 @@
 		<header class="header">
 		<img src="{% static 'image/logo-black.png' %}" alt="Dmitry Kavtaskin" class="logo-black">
     	</header><!-- .header-->
-        <!--a href="#{#% url 'blog.views.post_new'  %#}">New Post</a--!>
 		<main class="content">
 			{% block content %}
 			{% endblock %}
 		</main><!-- .content -->
 	</div><!-- .wrapper -->
 	<footer class="footer">
-		<span class="footer_name">2017. Учусь делать блог.</span>
+		<span class="footer_name">2017. Test blog.</span>
 	</footer><!-- .footer -->
 </body>
 </html>
